@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T12:26:39.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" version="13.8.1" etag="wzTwkTutvQkXfuEp4Gzj" type="github"><diagram id="gbSo7Ka601DmkQJn3vwp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-22T12:35:10.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="824Ah-U8qmPkaJB6x_Bx" version="13.8.1" type="github">
+  <diagram id="gbSo7Ka601DmkQJn3vwp" name="Page-1">
+    <mxGraphModel dx="872" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nI47YXhADyNB9YxybO1z-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nI47YXhADyNB9YxybO1z-2" target="nI47YXhADyNB9YxybO1z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-2" value="Cloudflare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-3" value="AWS Load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-4" value="EC2 instance in PaaS&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="150" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nI47YXhADyNB9YxybO1z-6" target="nI47YXhADyNB9YxybO1z-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="330" />
+              <mxPoint x="520" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-6" value="kube-dns? PaaS internal routing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-7" value="NGINX proxy (standard)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-8" value="app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-9" value="Note that in this case the pod (containing the proxy and app) may be on a different EC2 instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nI47YXhADyNB9YxybO1z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="400" />
+              <mxPoint x="320" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nI47YXhADyNB9YxybO1z-3" target="nI47YXhADyNB9YxybO1z-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="265" />
+              <mxPoint x="320" y="265" />
+              <mxPoint x="320" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-13" value="S3 based CDN containing our scripts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-14" value="Cloudflare worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-15" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="nI47YXhADyNB9YxybO1z-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-16" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="nI47YXhADyNB9YxybO1z-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="119.5" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-17" value="Determine if request is for static assets or not and route accordingly" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nI47YXhADyNB9YxybO1z-20" value="Not sure if separate processes or worker will rewrite all requests it needs to here" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
