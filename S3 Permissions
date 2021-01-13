@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T15:57:21.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1FntZHa_nP-h4md6rUBM" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T16:05:23.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vD1IrYgOD8K-4gjuBkQh" version="14.1.9" type="github">
   <diagram id="L1hHh2hmwgYXBewhfulc" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,17 +10,11 @@
         <mxCell id="2VFbEgrEUNsJtOqHSbKY-2" value="S3 Bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2VFbEgrEUNsJtOqHSbKY-3" value="DPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="2VFbEgrEUNsJtOqHSbKY-4" value="Main Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="154" y="30" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2VFbEgrEUNsJtOqHSbKY-5" value="Data&lt;br&gt;Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="30" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="2VFbEgrEUNsJtOqHSbKY-6" value="PaaS&lt;br&gt;Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="30" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2VFbEgrEUNsJtOqHSbKY-8" value="DPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
@@ -174,6 +168,12 @@
         </mxCell>
         <mxCell id="2VFbEgrEUNsJtOqHSbKY-70" value="PaaS&lt;br&gt;Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2VFbEgrEUNsJtOqHSbKY-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=10;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2VFbEgrEUNsJtOqHSbKY-74" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;/p&gt;&lt;h1&gt;&lt;span style=&quot;color: rgb(26 , 26 , 26)&quot;&gt;Bucket policy:&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(26 , 26 , 26) ; font-weight: normal&quot;&gt;https://github.com/ComparetheMarket/data.sales-registry-generator/blob/master/infra/bucket-sales-registry.tf&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="342.5" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
