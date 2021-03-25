@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T11:12:15.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.4.2" etag="Qh_5-kOpU72tagWXpjzb" type="github"><diagram id="cLXVkuUDKHpmH981pTqs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T11:27:44.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2Um9pc3kNMliNNN6VXD-" version="14.4.2" type="github">
+  <diagram id="cLXVkuUDKHpmH981pTqs" name="Page-1">
+    <mxGraphModel dx="800" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-1" value="Github" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-2" value="ComparetheMarket/platform.event-sink-schema&lt;br&gt;Schemas in in /schema/&amp;lt;schemaName&amp;gt;.json" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-3" value="GoCD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-5" value="&lt;span&gt;https://platform.cicd.ctmers.io:8154/go/admin/pipelines/&lt;br&gt;EventSink.Schema-Deploy-Schemas/general&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1yW2-AWKreLhn3I3Oy7-1" target="J1yW2-AWKreLhn3I3Oy7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-7" value="1. Run tests on schemas with fake events&lt;br&gt;2. Pull schema-information.txt&lt;br&gt;3. Compare hash of each schema with schema-information.txt&lt;br&gt;4. If a schema changed, update hash in schema-information.txt&lt;br&gt;4. For each changed schema, upload it to S3&lt;br&gt;5. If more than one schema changed upload new schema-information.txt to S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J1yW2-AWKreLhn3I3Oy7-3" target="J1yW2-AWKreLhn3I3Oy7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="220" as="sourcePoint" />
+            <mxPoint x="690" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="99.25" width="60" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-10" value="ctm-platform-eventsink&lt;br&gt;/&amp;lt;environment&amp;gt;&lt;br&gt;/&amp;lt;schemaName&amp;gt;.json" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-11" value="Event Sink" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="J1yW2-AWKreLhn3I3Oy7-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="210" as="sourcePoint" />
+            <mxPoint x="690" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1yW2-AWKreLhn3I3Oy7-15" value="1. On startup, download /&amp;lt;environment&amp;gt;/schema-information.txt&lt;br&gt;2. Download all schemas in schema-information.txt&lt;br&gt;3. Every minute, pull schema-information.txt from S3 and compare with local copy&lt;br&gt;4. If any of the schemas have changed, download those specific schemas to update validation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="350" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
