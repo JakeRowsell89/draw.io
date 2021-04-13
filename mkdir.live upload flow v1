@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T10:28:57.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="k8sfWAlwDPZhO9v1SuiX" version="14.5.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-13T13:16:56.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="92o5YZHJqW5kIvltOjye" version="14.5.8" type="github" pages="3">
   <diagram id="GZxAYvDlh9UbYnyunxz4" name="Page-1">
     <mxGraphModel dx="1421" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
         <mxCell id="WfQP-FgjfBgILMpEInLA-9" value="Uploaded static sites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WfQP-FgjfBgILMpEInLA-1">
           <mxGeometry x="268.5" y="170" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WfQP-FgjfBgILMpEInLA-10" value="Uploader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WfQP-FgjfBgILMpEInLA-1">
+        <mxCell id="WfQP-FgjfBgILMpEInLA-10" value="Lambda Creator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WfQP-FgjfBgILMpEInLA-1">
           <mxGeometry x="424.5" y="20" width="140" height="20.75" as="geometry" />
         </mxCell>
         <mxCell id="WfQP-FgjfBgILMpEInLA-13" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WfQP-FgjfBgILMpEInLA-1">
@@ -233,7 +233,7 @@
         <mxCell id="lLklNLBOnPcLes6YK9b7-6" value="Uploaded static sites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lLklNLBOnPcLes6YK9b7-1">
           <mxGeometry x="268.5" y="170" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lLklNLBOnPcLes6YK9b7-7" value="Uploader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lLklNLBOnPcLes6YK9b7-1">
+        <mxCell id="lLklNLBOnPcLes6YK9b7-7" value="Lambda Creator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lLklNLBOnPcLes6YK9b7-1">
           <mxGeometry x="424.5" y="20" width="140" height="20.75" as="geometry" />
         </mxCell>
         <mxCell id="lLklNLBOnPcLes6YK9b7-8" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lLklNLBOnPcLes6YK9b7-1">
